@@ -20,12 +20,13 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
-- task: CopyFiles@1
+- task: CopyFiles@2
   inputs:
     SourceFolder: '$(System.DefaultWorkingDirectory)'
     Contents: |
       dist\**\*
       static-server.js
+      package.json
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
 - task: PublishBuildArtifacts@1
