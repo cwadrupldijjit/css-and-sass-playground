@@ -24,7 +24,7 @@ steps:
   inputs:
     SourceFolder: '$(System.DefaultWorkingDirectory)'
     Contents: |
-      dist\**\*
+      dist/**/*
       static-server.js
       package.json
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
