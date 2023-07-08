@@ -24,10 +24,10 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.2",
-    "@vue/cli-plugin-pwa": "^3.2.2",
+    "@vue/cli-plugin-pwa": "^5.0.8",
     "@vue/cli-plugin-typescript": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
-    "node-sass": "^7.0.3",
+    "node-sass": "^9.0.0",
     "sass-loader": "^7.0.1",
     "typescript": "^3.0.0",
     "vue-template-compiler": "^2.5.21"
